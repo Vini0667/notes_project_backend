@@ -25,14 +25,34 @@ Para criação de pipelines de CI/CD utilziarei o GitHub actions (Estudar sobre 
 ```
 - Node.js
 - Express.js
+- TypeScript
 - MongoDB
 - Jest
 - Supertest
 - Swagger
 - GitHub Actions
 - Podman Compose
-- TypeScript
+- Docker
 ```
+
+## Lista de afazeres
+
+- [x] Implementar o Dockerfile para dev
+- [x] Implementar o compose file para dev
+- [X] Configurar o projeto com as bibliotecas necessárias
+    - [x] Implementar o Swagger
+    - [X] Implementar um simples injetor de dependências
+- [] Implementar o GitHub Actions
+- [] Implementar a camada de Modelo da aplicação
+    - [] Fazer um adapter para o ORM do MongoDB
+    - [] Fazer a interface para o ORM do
+- [] Implementar a autenticação
+    - [] Implementar a autenticação como Google usando o OAuth2
+    - [] Implementar uma autenticação simples com JWT
+        - [] Implementar TWO Factor Authentication (Quando possível)
+    - [] Implementar testes para a autenticação
+> Mais afazeres serão adicionadas a lista conforme a necessidade
+
 
 ### Considerações finais
 

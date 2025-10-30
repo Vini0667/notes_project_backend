@@ -1,0 +1,27 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "Notes Project Backend",
+        "version": "1.0.0",
+        "description": "Backend API for the Notes Project"
+    },
+    "tags": [
+        {
+            "name": "Users",
+            "description": "Operations related to users"
+        }
+    ],
+    "paths": {
+        "/": {
+            "get": {
+                "tags": ["Users"],
+                "summary": "Get Hello World",
+                "responses": {
+                    "200": {
+                        "description": "Successfully response"
+                    }
+                }
+            }
+        }
+    }
+}
